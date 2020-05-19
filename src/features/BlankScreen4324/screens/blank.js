@@ -43,6 +43,54 @@ export class _Blank extends React.Component {
           borderWidth: "2"
         }}
       />
+      <Text styles={{ overflow: "visible", borderStyle: "solid" }}>Text</Text>
+      <CbInput
+        placeholder="Text input placeholder"
+        readonly={false}
+        maxLength=""
+        value=""
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <CbTextArea
+        placeholder="Text input placeholder"
+        readonly={false}
+        maxLength=""
+        value=""
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <Toggle
+        value={true}
+        activeColor=""
+        inactiveColor=""
+        disabled={false}
+        text="switch ON/OFF"
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <CheckBox
+        label="Checkbox"
+        value={true}
+        disabled={false}
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <Radio
+        label="Radio button"
+        value={true}
+        disabled={false}
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <Icon
+        iconFont="Eva Design Icons"
+        icon="github"
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
+      <Slider
+        value="50"
+        minimalValue="0"
+        maximumValue="100"
+        step="1"
+        disabled={false}
+        styles={{ overflow: "visible", borderStyle: "solid" }}
+      />
     </View>
   )
 }

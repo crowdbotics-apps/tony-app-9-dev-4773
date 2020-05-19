@@ -23,7 +23,25 @@ export class _Blank extends React.Component {
       <Button
         title="Button"
         color="#2196F3"
-        styles={{ overflow: "visible", borderStyle: "solid" }}
+        styles={{
+          overflow: "visible",
+          borderStyle: "dotted",
+          width: "100pt",
+          height: "30pt",
+          paddingTop: "5pt",
+          paddingLeft: "5pt",
+          paddingRight: "5pt",
+          paddingBottom: "5pt",
+          marginTop: "5pt",
+          marginLeft: "5pt",
+          marginRight: "5pt",
+          marginBottom: "5pt",
+          fontFamily: "Arial",
+          fontSize: "12",
+          fontStyle: "italic",
+          fontWeight: "bold",
+          borderWidth: "2"
+        }}
       />
     </View>
   )
